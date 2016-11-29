@@ -1,6 +1,6 @@
 compile: 
-	g++ -std=gnu++11 driver.cpp -o driver.out
+	g++ -std=gnu++11 Driver.cpp -o Driver.out
 run: 
-	./driver.out
+	./Driver.out
 clean:
 	rm *.out

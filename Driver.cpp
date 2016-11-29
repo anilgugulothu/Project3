@@ -18,8 +18,12 @@ int main(){
 
 	Sorting sort = new Sorting();
 
-	sort.insertionSort(&numbers);
+	sort.selectionSort(&numbers);
 
+	cout << "NUMBERS";
+	for(int i=0; i<numbers.size(); i++){
+		cout << numbers[i] << endl;
+	}
 
 
 
