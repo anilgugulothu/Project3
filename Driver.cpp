@@ -16,9 +16,15 @@ int main(){
 	}
 	in.close();
 
-	Sorting sort = new Sorting();
+	//Sorting* sort = new Sorting();
 
-	sort.selectionSort(&numbers);
+	//int size = numbers.size();
+	Sorting* sort = new Sorting();
+	int* newNumbers;
+	for(int i=0; i<numbers.size(); i++){
+		newNumbers[i] = numbers[i];
+	}
+	sort->selectionSort(newNumbers, (int)numbers.size());
 
 	cout << "NUMBERS";
 	for(int i=0; i<numbers.size(); i++){

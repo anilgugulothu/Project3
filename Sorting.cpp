@@ -2,11 +2,11 @@
 #include "Sorting.h"
 using namespace std;
 
-Sorting::Sorting(){
+//Sorting::Sorting(){
 
-}
+//}
 
-void Sorting::selectionSort(&vector<int> numbers, int length){
+void Sorting::selectionSort(int* numbers, int length){
 	int minPos, temp;
 	for(int i=0; i<length-1; i++){
 		minPos = i;
